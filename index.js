@@ -53,4 +53,15 @@ const sumOfThreeOrFive = () => {
 
 console.log(sumOfThreeOrFive());
 //6
-const isAllLowerCase = () => {};
+const isAllLowerCase = (str) => {
+  console.log(str.toLowerCase());
+  if (str.toLowerCase() === str) {
+    console.log("True");
+  } else {
+    console.log("false");
+  }
+};
+
+isAllLowerCase("hello");
+isAllLowerCase("seven eleven");
+isAllLowerCase("Seven eleven has the best slushies");
